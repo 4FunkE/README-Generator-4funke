@@ -84,17 +84,14 @@ inquirer
         name: 'email',
     },
   ])
-
+  .then((answers) => {
+    const readmeContent = generateMarkdown(answers);
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
     fs.writeFile("README.md", readmeContent, (err) => {
         if (err) throw err;
         console.log("You successfully created a REAADME!")
     });
-}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+})
+.catch((error) => {
+    console.error(error);
+});
