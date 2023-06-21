@@ -1,0 +1,23 @@
+{
+  "name": "readme-generator-4funke",
+  "version": "1.0.0",
+  "description": "Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4FunkE/README-Generator-4funke.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4FunkE/README-Generator-4funke/issues"
+  },
+  "homepage": "https://github.com/4FunkE/README-Generator-4funke#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
