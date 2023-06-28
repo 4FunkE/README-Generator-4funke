@@ -18,7 +18,7 @@ function generateMarkdown(data) {
 
   ## Installation
   ${data.installation}
-  - Deployed Site --> 
+  - Deployed Site --> ${data.url}
 
   ## Usage
   ${data.usage}

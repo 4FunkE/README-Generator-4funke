@@ -23,6 +23,11 @@ inquirer
     },
     {
         type: 'input',
+        message: 'What is the URL to the deployed site',
+        name: 'url',
+      },
+    {
+        type: 'input',
         message: 'Please provide instructions and examples of the applications use.',
         name: 'usage',
     },
